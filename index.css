@@ -1,3 +1,6 @@
+html{
+    scroll-behavior: smooth;
+}
 *{
     margin: 0;
     padding: 0;
@@ -11,10 +14,13 @@ header{
 
 #navbar{
     display: flex;
+    position: sticky;
+    top: 0;
     justify-content: space-between;
     align-items: center;
     padding:20px;
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1000;
 }
 
 #navbar>#logo>img{
@@ -36,8 +42,17 @@ header{
 
 }
 #navlinks>a:hover{
-    color: yellow;
+    color: rgb(242,189,41);
     transform: scale(20px);
     font-size: 30px;
 
+}
+
+header>video{
+    max-width: 1512px;
+    margin: auto;
+    position: relative;
+    top: 0;
+    padding: 0px;
+    
 }
