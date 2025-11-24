@@ -26,6 +26,7 @@ header{
 #navbar>#logo>img{
     width: 90px;
     height: auto;
+    border-radius: 50%;
 
 }
 
@@ -50,6 +51,7 @@ header{
     font-size: 30px;
     background-color: black;
     border-radius: 8px;
+    border: 2px solid white;
     padding: 15px;
 
 }
@@ -57,7 +59,7 @@ header{
 header>video{
     max-width: 1512px;
     margin: auto;
-    position: static;
+    position: ;
     top: 0px;
     padding: 0px;
     z-index: -10;
