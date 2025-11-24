@@ -31,7 +31,7 @@ header{
 }
 
 #navlinks{
-    margin-right: 40px;
+    margin: auto;
     display: flex;
     gap: 60px;
     max-width: 700px;
@@ -51,7 +51,7 @@ header{
     font-size: 30px;
     background-color: black;
     border-radius: 8px;
-    border: 2px solid white;
+    border: 2px solid rgb(242,189,41) ;
     padding: 15px;
 
 }
