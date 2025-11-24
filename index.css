@@ -31,20 +31,26 @@ header{
 
 #navlinks{
     margin-right: 40px;
+    display: flex;
+    gap: 60px;
+    max-width: 700px;
+
 }
 
 #navlinks>a{
     color: rgb(255, 255, 255);
     text-decoration: none;
-    margin-left: 40px;
     transition: all 2s;
     font-size:  20px;
-
+   margin: auto;
 }
 #navlinks>a:hover{
     color: rgb(242,189,41);
     transform: scale(20px);
     font-size: 30px;
+    background-color: black;
+    border-radius: 8px;
+    padding: 15px;
 
 }
 
