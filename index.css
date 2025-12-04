@@ -8,13 +8,14 @@ html{
 }
 
 header{
+    top: 0;
     max-width: 1512px;
     margin: auto;
 }
 
 #navbar{
     width: 1512px ;
-    height: ;
+    height: 90px;
     display: flex;
     position: fixed;
     top: 0;
@@ -22,6 +23,11 @@ header{
     align-items: center;
     padding:20px;
     z-index: 1000;
+    transition: all 0.5s;
+}
+
+#navbar:hover{
+    background-color: white;
 }
 
 #navbar>#logo>img{
@@ -50,17 +56,30 @@ header{
 #navlinks>a{
     color: rgb(0, 0, 0);
     text-decoration: none;
-    transition: all 2s;
-    font-size:  20px;
-   margin: auto;
+    transition: all 0.2s;
+    font-size: 20px;
+    font-weight: bold;
+    margin: auto;
 }
 #navlinks>a:hover{
-    color: rgb(255, 255, 255);
-    transform: scale(20px);
-    font-size: 30px;
-    background-color: black;
+    color: rgb(242,190,42);
     border-radius: 8px; padding: 15px;
+}
 
+#navlinks>a::after{
+    content: " ";
+    background-color: rgb(242,190,42);
+    height: 2px;
+    width: 0px;
+    display: block;
+    position: absolute;
+    opacity: 0;
+    transition: all 0.5s;
+}
+
+#navlinks>a:hover::after{
+    opacity: 1;
+    width: 55px;
 }
 
 header>video{
@@ -68,7 +87,6 @@ header>video{
     height: 891px;
     margin: auto;
     position:relative ;
-    margin-top: 0px;
     padding: 0px;
     z-index: -1000;
     top: 0;
