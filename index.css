@@ -15,20 +15,18 @@ header{
 
 #navbar{
     width: 1512px ;
-    height: 90px;
+    height: 45px;
     display: flex;
     position: fixed;
     top: 0;
-    justify-content: right;
+    justify-content: space-between;
     align-items: center;
     padding:20px;
     z-index: 1000;
     transition: all 0.5s;
-}
-
-#navbar:hover{
     background-color: white;
 }
+
 
 #navbar>#logo>img{
     width: 90px;
@@ -47,9 +45,11 @@ header{
 
 #navlinks{
     margin: auto;
+    height: 55px;
     display: flex;
     gap: 60px;
-    max-width: 700px;
+    width: 700px;
+    justify-content: flex-start;
 
 }
 
@@ -98,10 +98,11 @@ header>#title{
     font-size: x-large;
     padding: 60px;
     border-radius: 8px;
-    top: 150px;
+    top: 200px;
     left: auto;
     width: 680px;
     color: rgb(0, 0, 0);
+    background-color: rgba(256,256,256,0.5);
 }
 
 #bouncy{
