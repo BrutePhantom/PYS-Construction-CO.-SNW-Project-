@@ -18,12 +18,10 @@ header{
     display: flex;
     position: fixed;
     top: 0;
-    justify-content: space-between;
+    justify-content: right;
     align-items: center;
     padding:20px;
-    background-color: rgb(0, 0, 0);
     z-index: 1000;
-    box-shadow:  3px 3px 2px black;
 }
 
 #navbar>#logo>img{
@@ -50,14 +48,14 @@ header{
 }
 
 #navlinks>a{
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     text-decoration: none;
     transition: all 2s;
     font-size:  20px;
    margin: auto;
 }
 #navlinks>a:hover{
-    color: rgb(242,189,41);
+    color: rgb(255, 255, 255);
     transform: scale(20px);
     font-size: 30px;
     background-color: black;
@@ -66,12 +64,14 @@ header{
 }
 
 header>video{
-    max-width: 1512px;
+    width: 1512px;
+    height: 891px;
     margin: auto;
     position:relative ;
     margin-top: 0px;
     padding: 0px;
     z-index: -1000;
+    top: 0;
     
 }
 
@@ -80,12 +80,10 @@ header>#title{
     font-size: x-large;
     padding: 60px;
     border-radius: 8px;
-    top: 250px;
-    left: 100px;
+    top: 150px;
+    left: auto;
     width: 680px;
-    color: rgb(255, 255, 255);
-    background-color:rgba(0, 0, 0, 0.5) ;
-    box-shadow: 5px 8px 15px rgb(242,189,41) ;
+    color: rgb(0, 0, 0);
 }
 
 #bouncy{
