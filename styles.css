@@ -265,6 +265,10 @@ footer {
     z-index: 10;
 }
 
+#quoteModal{
+    z-index: 1000;
+}
+
 @keyframes bounce {
     0% {top: 755px;}
     50%{top:780px;}

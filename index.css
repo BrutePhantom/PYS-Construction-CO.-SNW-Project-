@@ -109,8 +109,8 @@ header>#title{
     position: absolute;
     margin: 0;
     padding: 0;
-    right: 710px;
-    top: 780px;
+    right: 500px;
+    top: 600px;
     cursor: pointer;
     animation-name: bounce ;
     animation-iteration-count: infinite;
