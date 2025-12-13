@@ -269,6 +269,18 @@ footer {
     z-index: 1000;
 }
 
+
+
+#req>label{
+    display: inline-flex;
+    justify-self: left;
+}
+
+#req>input{
+    width: 150px;
+    justify-self: end;
+}
+
 @keyframes bounce {
     0% {top: 755px;}
     50%{top:780px;}
